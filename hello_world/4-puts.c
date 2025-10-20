@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * my_function - This is a description
+ * main - Print Programming is like building a multilingual puzzle
+ * Return: always 0 
  */
 int main(void)
 {
