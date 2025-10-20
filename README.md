@@ -34,6 +34,26 @@ script that compiles a C file and creates an executable named cisfun
 
 4-puts.c
 
+#include <stdio.h>
+/**
+ * main - Print Programming is like building a multilingual puzzle
+ * Return: always 0
+ */
+int main(void)
+{
+        puts("\"Programming is like building a multilingual puzzle");
+        return (0);
+}
 
+5-Printf.c
 
-
+#include <stdio.h>
+/**
+ * main -print:  with proper grammar, but the outcome is a piece of art,
+ * Return: always 0
+ */
+int main(void)
+{
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
+}
