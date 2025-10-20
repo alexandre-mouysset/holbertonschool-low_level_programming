@@ -2,8 +2,9 @@ i# holbertonschool-low_level_programming
 
 0-Preprocessor
 
+```bash
 #!/bin/bash
-gcc -E $CFILE -o c
+gcc -E "$CFILE" -o c
 
 Write a script that runs a C file through the preprocessor and save the result into another file.
 
