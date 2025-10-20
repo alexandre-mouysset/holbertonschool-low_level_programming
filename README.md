@@ -31,3 +31,9 @@ script that generates the assembly code of a C code and save it in an output fil
 gcc $CFILE -o cisfun
 
 script that compiles a C file and creates an executable named cisfun
+
+4-puts.c
+
+
+
+
