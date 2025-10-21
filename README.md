@@ -206,3 +206,75 @@ int main(void)
 
 return (0);
 }
+
+4. Print all the alphabet except q and e
+
+#include <stdio.h>
+
+/**
+ * main - Alphabet in lowercase except q and e
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+        char alphabet;
+
+        for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+        {
+                if (alphabet != 'q' && alphabet != 'e')
+                {
+                putchar(alphabet);
+                }
+        }
+        putchar('\n');
+
+return (0);
+}
+
+5. Decimal with printf
+
+#include <stdio.h>
+
+/**
+ * main - print 0123456789
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int decimal;
+
+	for (decimal = 0; decimal < 10; decimal++)
+	{
+		printf("%d", decimal);
+	}
+	printf("\n");
+return (0);
+}
+
+
+6. Decimal with putchar
+
+
+#include <stdio.h>
+
+/**
+ * main - print 0123456789 with putchar
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+        int decimal;
+
+        for (decimal = 0; decimal < 10; decimal++)
+        {
+                putchar(decimal + '0');
+        }
+        putchar('\n');
+return (0);
+}
