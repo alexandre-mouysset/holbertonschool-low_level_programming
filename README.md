@@ -119,5 +119,90 @@ int main(void)
 return (0);
 }
 
+1. The last digit
 
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
+/**
+ * main - last digit
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+        int n;
+        int x;
+
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        x = n % 10;
+
+        if (x > 5)
+        {
+                printf("Last digit of %d is %d and is greater than 5\n", n, x);
+        }
+        else if (x == 0)
+        {
+                printf("Last digit of %d is %d and is 0\n", n, x);
+        }
+        else
+        {
+                printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
+        }
+        return (0);
+}
+
+2. Print all the Alphabet in lowercase with for 
+
+#include <stdio.h>
+
+/**
+ * main - Alphabet in lowercase
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+        char alphabet;
+
+        for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+        {
+                putchar(alphabet);
+        }
+        putchar('\n');
+
+return (0);
+}
+
+3. Print all the Alphabet in lower and uppercase with for
+
+#include <stdio.h>
+
+/**
+ * main - Print alphabet in lowercase and uppercase
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+        char alphabet;
+        char ALPHABET;
+
+        for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+        {
+                putchar(alphabet);
+        }
+        for (ALPHABET = 'A'; ALPHABET <= 'Z'; ALPHABET++)
+        {
+                putchar(ALPHABET);
+        }
+        putchar('\n');
+
+return (0);
+}
