@@ -13,8 +13,11 @@ int main(void)
 	for (decimal = 0; decimal < 10; decimal++)
 	{
 		putchar(decimal + '0');
+	if (decimal < 9)
+	{
 		putchar(',');
 		putchar(' ');
+	}
 	}
 	putchar('\n');
 return (0);
