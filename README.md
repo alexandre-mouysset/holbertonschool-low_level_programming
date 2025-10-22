@@ -301,3 +301,27 @@ int main(void)
 
 return (0);
 }
+
+8. HEXADECIMAL
+
+#include <stdio.h>
+/**
+*main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+        char hexa;
+
+        for (hexa = '0'; hexa <= '9'; hexa++)
+        {
+                putchar(hexa);
+        }
+        for (hexa = 'a'; hexa <= 'f'; hexa++)
+        {
+                putchar(hexa);
+        }
+        putchar('\n');
+return (0);
+}
