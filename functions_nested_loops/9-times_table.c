@@ -22,18 +22,21 @@ void times_table(void)
 			if (resultat <= 9)
 			{
 				_putchar('0' + resultat);
-				_putchar(',');
-				_putchar(' ');
+
 			}
 			else
 			{
 				_putchar('0' + (resultat / 10));
 				_putchar('0' + (resultat % 10));
+
+			}
+			if (multiplicateur != 9)
+			{
 				_putchar(',');
 				_putchar(' ');
 			}
-
 		}
 	}
-
 }
+
+
