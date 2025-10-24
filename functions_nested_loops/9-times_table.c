@@ -13,7 +13,6 @@ void times_table(void)
 
 	for (table = 0; table < 10; table++)
 	{
-		_putchar('\n');
 
 		for (multiplicateur = 0; multiplicateur < 10; multiplicateur++)
 		{
@@ -21,6 +20,7 @@ void times_table(void)
 
 			if (resultat <= 9)
 			{
+				_putchar(32);
 				_putchar('0' + resultat);
 
 			}
@@ -36,5 +36,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
+		_putchar('\n');
 	}
 }
