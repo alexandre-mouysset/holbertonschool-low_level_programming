@@ -20,7 +20,10 @@ void times_table(void)
 
 			if (resultat <= 9)
 			{
+				if (multiplicateur != 0)
+				{
 				_putchar(32);
+				}
 				_putchar('0' + resultat);
 
 			}
