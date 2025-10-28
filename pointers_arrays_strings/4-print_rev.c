@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _puts - prints a string to the standard output, followed by a new line
- * @str: pointer to the string to be printed
+ * print_rev - prints a string in reverse, followed by a new line
+ * @s: pointer to the string to be printed
  *
- * Description: This function prints each character of the string
- *              using _putchar, and then prints a newline character.
+ * Description: This function starts from the end of the string
+ *              and prints each character in reverse order using _putchar,
+ *              then prints a newline character.
  */
 
 void print_rev(char *s)
@@ -13,8 +14,6 @@ void print_rev(char *s)
 	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
-	{
-	}
 
 	for (i = i - 1; s[i] > 0; i--)
 	{
