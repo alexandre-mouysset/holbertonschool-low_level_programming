@@ -9,15 +9,14 @@
  * at the end of dest, and then adds a new null terminator.
  *
  * Return: pointer to the resulting string (dest)
- */
-
-char *_strcat(char *dest, char *src)
+*/
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j = 0;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	;
-	while (src[j] != '\0')
+	while (src[j] != '\0' && j < n)
 	{
 		dest[i] = src[j];
 		i++;
