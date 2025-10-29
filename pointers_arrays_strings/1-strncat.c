@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates at most n characters from src to dest
  * @dest: destination string, where src will be appended
- * @src: source string to append to dest
+ * @src: source string to append
+ * @n: maximum number of characters to append from src
  *
- * Appends the src string to the dest string, overwriting the null byte
- * at the end of dest, and then adds a new null terminator.
+ * Appends up to n characters from src to dest, then adds a null terminator.
  *
  * Return: pointer to the resulting string (dest)
-*/
+ */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j = 0;
