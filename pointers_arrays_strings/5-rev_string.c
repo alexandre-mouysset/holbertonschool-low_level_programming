@@ -15,8 +15,8 @@ int i, len;
 char temp;
 
 for (len = 0; s[len] != '\0'; len++)
-{
-}
+;
+
 
 len--;
 
