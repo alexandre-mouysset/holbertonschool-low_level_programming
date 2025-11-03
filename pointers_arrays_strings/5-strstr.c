@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * _strpbrk - Searches a string for any of a set of bytes
- * @s: Pointer to the string to be scanned
- * @accept: Pointer to the string containing the bytes to match
+ * _strstr - Locates a substring in a string
+ * @haystack: Pointer to the string to be scanned
+ * @needle: Pointer to the substring to search for
  *
- * Return: A pointer to the first occurrence in s
- * of any of the bytes in accept,
- *         or NULL if no such byte is found
+ * Return: A pointer to the first occurrence of needle in haystack,
+ *         or NULL if needle is not found
  */
 
 char *_strstr(char *haystack, char *needle)
