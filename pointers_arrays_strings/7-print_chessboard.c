@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _strstr - Locates a substring in a string
- * @haystack: Pointer to the string to be scanned
- * @needle: Pointer to the substring to search for
+ * print_chessboard - Prints an 8x8 chessboard
+ * @a: Pointer to a 2D array representing the chessboard
  *
- * Return: A pointer to the first occurrence of needle in haystack,
- *         or NULL if needle is not found
+ * Description: Each element of the array represents a square on the board.
+ *              The function prints the board row by row using _putchar.
  */
 
 void print_chessboard(char (*a)[8])
