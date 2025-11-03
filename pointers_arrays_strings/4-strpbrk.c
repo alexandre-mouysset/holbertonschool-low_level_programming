@@ -5,13 +5,14 @@
  * @s: Pointer to the string to be scanned
  * @accept: Pointer to the string containing the bytes to match
  *
- * Return: A pointer to the first occurrence in s of any of the bytes in accept,
+ * Return: A pointer to the first occurrence in s
+ * of any of the bytes in accept,
  *         or NULL if no such byte is found
  */
 
- char *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-    int i;
+	int i;
 	int j;
 
 
@@ -20,11 +21,11 @@
 		for (j = 0; accept[j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
-            {
-                return (&s[i]);
-            }
+			{
+				return (&s[i]);
+			}
 		}
-	
+
 	}
 	return (0);
 }
