@@ -9,5 +9,6 @@
 
 int _sqrt_recursion(int n)
 {
-
+	_putchar(\n);
+	return (0);
 }
