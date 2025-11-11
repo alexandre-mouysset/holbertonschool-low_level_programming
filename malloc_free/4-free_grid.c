@@ -3,11 +3,9 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - allocates a 2D array of integers
- * @width: number of columns
- * @height: number of rows
- *
- * Return: pointer to the 2D array, or NULL on failure
+ * free_grid - frees a 2D array of integers previously allocated
+ * @grid: pointer to the 2D array
+ * @height: number of rows in the grid
  */
 
 void free_grid(int **grid, int height)
