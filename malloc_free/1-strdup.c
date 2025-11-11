@@ -36,4 +36,5 @@ char *_strdup(char *str)
 	tab[i] = '\0';
 
 	return (tab);
+
 }
