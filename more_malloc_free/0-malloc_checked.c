@@ -19,7 +19,7 @@ void *malloc_checked(unsigned int b)
 	tab = malloc(b);
 	if (tab == NULL)
 	{
-		return (98);
+		exit(98);
 	}
 return (tab);
 }
