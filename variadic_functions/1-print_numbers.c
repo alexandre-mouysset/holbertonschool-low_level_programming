@@ -3,10 +3,11 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - Returns the sum of all its integer parameters
- * @n: The number of integer arguments passed to the function
+ * print_numbers - Print all given integers separated by a string
+ * @separator: String printed between numbers
+ * @n: Number of integers passed to the function
  *
- * Return: If n is 0 returns 0 otherwise returns the sum the provided integers.
+ * Return: Nothing
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
