@@ -1,5 +1,48 @@
 {
-	"files.associations": {
-		"stdio.h": "c"
-	}
+    "powermode.enabled": true,
+    "powermode.combo.location": "off",
+    "powermode.shake.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "vscode-office.editorTheme": "Github Dark",
+    "vscode-office.openOutline": true,
+    "git.autofetch": true,
+    "kilo-code.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "kilo-code.deniedCommands": [],
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "roo-cline.deniedCommands": [],
+    "window.newWindowProfile": "Par défaut",
+    "editor.insertSpaces": false,
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "github.copilot.enable": {
+        "*": false
+    }
 }
